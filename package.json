@@ -6,6 +6,17 @@
   "scripts": {
     "test": "mocha --harmony"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rainder/koa-inject"
+  },
+  "keywords": [
+    "koa",
+    "dependency",
+    "injection",
+    "inject",
+    "di"
+  ],
   "author": "Andrius Skerla",
   "license": "MIT",
   "devDependencies": {
