@@ -36,7 +36,7 @@ function preLoad(di, modules) {
  */
 function Inject(gen) {
   var deps;
-  var matches = gen.toString().match(/^function\* *\(([^\)]*)/);
+  var matches = gen.toString().match(/^function *\*[a-zA-Z0-9_\$ ]*\(([^\)]*)/);
 
   if (!matches) {
     throw new Error('Invalid generator function passed');

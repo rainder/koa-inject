@@ -35,6 +35,9 @@ describe('koa-inject', function () {
       });
       yield co(gen.call(app, null));
 
+      gen = inject(function * $inSdex9_ () {});
+      yield co(gen.call(app, null));
+
 
       gen = inject(function *(db, next) {
       });

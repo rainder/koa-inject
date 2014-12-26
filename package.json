@@ -1,6 +1,6 @@
 {
   "name": "koa-inject",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Dependency injection into koa apps",
   "main": "koa-inject.js",
   "scripts": {
